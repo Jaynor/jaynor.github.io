@@ -7,7 +7,7 @@
     <style>
     .imageContainer {
        background-image: url('./images/us.jpg');
-       height: 430px;
+       height: 520px;
        width: 1280px;
        background-position: center center;
        background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     }
     
     h1.spacing {
-    padding-top: 330px;
+    padding-top: 20px;
     text-indent: 2em;
     }
     
@@ -39,25 +39,76 @@
     padding-left: 1cm;
     }
     
+    .first_line{
+      padding-top: 20px;
+      padding-left: 50px;
+      display: inline;
+      text-align: center;
+    }
+    .social{
+    padding-left: 1px;
+    display: inline;
+    text-align: center;
+    }
+
+    ul li {
+      display: inline;
+      padding: 1rem;
+    }
+
    </style>
 </head>
 <body style="background-color:#2d2d2d;">
     <div class="imageContainer">
-        <h1 class="spacing">
-            <font size="40", color="white", face="arial">Hi!, I'm Junyoung Kim.</font>
-        </h1>
+        
     </div> 
-    <center>
-    <a href="/evibox/about">About Me &nbsp &nbsp</a>
-    <a href="/evibox/team"> Classes &nbsp &nbsp</a>
-    <a href="/evibox/businessmodel"> Resume</a>
-    </center>
+    <div class = "first_line">
+      <h1 class="spacing">
+            <center><font size="40", color="white", face="arial">Hi!, I'm Junyoung Kim.</font></center>
+      </h1>
+
+      <ul>
+      <center>
+        <li><a href="./about_me.html">About Me</a></li>
+        <li><a href="./classes.html"> Classes</a></li>
+        <li><a href="/evibox/businessmodel"> Resume</a></li>
+      </center>
+    </ul>
+    </div>
+    
     <hr>
-    <h2 class="content">
-        <font color="white">
-        I'm excited you are here!<br/>
-        </font>
-    </h2>
+    <div class="social">
+    <center>
+      <ul>
+        <li>
+          <a href="mailto:won.donghyeon@gmail.com">
+            <img src="./icons/gmail.png" alt="Email" />
+            <meta itemprop="email" content="jkim7307@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/junyoung-kim-b15860132/">
+            <img src="./icons/linkedin.png" alt="LinkedIn" />
+            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://github.com/Jaynor">
+            <img src="./icons/github.png" alt="GitHub" />
+            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> Github
+          </a>
+          <!-- <a href="https://github.com/Jaynor" >
+            <img src="./icons/github.png" /></a>
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a> -->
+        </li>
+  
+    </ul></center>
+  </div>
+</div>
+ 
     
 </body>
 </html>
